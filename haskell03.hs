@@ -7,3 +7,6 @@ multN x list = [x*y|y <- list]
 multN' :: Int -> [Int] -> [Int]
 multN'  x list = map (*x) list
 
+applyExpr :: [Int] -> [Int]
+applyExpr list = [3*x+2 | x <- list]
+
