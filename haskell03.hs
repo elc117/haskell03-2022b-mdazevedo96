@@ -13,4 +13,7 @@ applyExpr list = [3*x+2 | x <- list]
 --addSuffix :: String -> [String] -> [String]
 --addSuffix suf list = [x| x <- suf++ list]
 
+--selectgt5 :: [Int] -> [Int]
+--selectgt5 list = [ x > 5 | x <- list]
+
 
