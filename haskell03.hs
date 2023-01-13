@@ -10,3 +10,7 @@ multN'  x list = map (*x) list
 applyExpr :: [Int] -> [Int]
 applyExpr list = [3*x+2 | x <- list]
 
+--addSuffix :: String -> [String] -> [String]
+--addSuffix suf list = [x| x <- suf++ list]
+
+
